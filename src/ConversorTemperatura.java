@@ -6,10 +6,7 @@ public class ConversorTemperatura {
         double fahrenheit = (celcius * 9/5) + 32;
         return fahrenheit;
     }
-    static double CelciusToFKelvin(double celcius){
-        double Kelvin = celcius + 273.15;
-        return Kelvin;
-    }
+
     static void MostrarTemperatura(double valor, String temperatura){
         System.out.println("A " + temperatura + "e " + valor );
     }
