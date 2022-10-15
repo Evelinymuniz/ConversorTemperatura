@@ -24,7 +24,7 @@ public class ConversorTemperatura {
         System.out.println("Digite o valor da segunda temperatura em celsius : ");
         MostrarTemperatura(CelciusToFahrenheit(sc.nextDouble()),"fahrenheit ");
 
-        System.out.println("obigada!!!");
+        System.out.println("obrigada!!!");
 
 
     }
